@@ -88,5 +88,5 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules'
     ],
     py_modules       = ['iso8601'],
-    zip_safe           = True
+    zip_safe         = True
 )
