@@ -41,9 +41,9 @@ Installation
 ------------
 
 To install iso8601, make sure you have Python 2.7 or greater
-installed. Then run this command from the command prompt:
+installed. Then run this command from the command prompt::
 
-    python setup.py install
+   python setup.py install
 
 If you're upgrading from a previous version, you need to remove it
 first.
