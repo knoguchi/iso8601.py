@@ -1,0 +1,61 @@
+iso8061
+=======
+
+Parse utilities for iso8601 encoding.
+
+Whereas encoding is offered by `datetime.isoformat()
+<http://docs.python.org/library/datetime.html#datetime.datetime.isoformat>`_,
+the standard library offers no means to decode an iso8601 format
+datetime into a `datetime
+<http://docs.python.org/library/datetime.html#datetime.datetime>`_
+object.  This module just makes up for that deficiency in an
+unobtrusive way.
+
+Synopsis
+--------
+::
+
+   import iso8601
+   dt = iso8601.parse_datetime("1994-11-05T08:15:30-05:00")
+
+Description
+-----------
+
+parse_datetime(string)
+   Parse an iso8601-encoded datetime string.
+
+   Args:
+      string: an iso8601 datetime string.
+
+   Returns:
+      A `datetime
+      <http://docs.python.org/library/datetime.html#datetime.datetime>`_ object.
+   Raises:
+      ValueError: Could not parse the provided string.
+
+ISO8601_RE
+   Regular expression for an iso8601 encoded date, to be used for
+   validation or manual parsing.
+
+Installation
+------------
+
+To install iso8601, make sure you have Python 2.7 or greater
+installed. Then run this command from the command prompt:
+
+    python setup.py install
+
+If you're upgrading from a previous version, you need to remove it
+first.
+
+Though it is not a requirement, it is highly suggested that you have
+`Distribute <http://packages.python.org/distribute>`_ installed.
+
+For custom installation locations, please see:
+http://packages.python.org/distribute/easy_install.html#custom-installation-locations
+
+License
+-------
+
+iso8601 is distributed under the `LGPLv2.1 license
+<https://www.gnu.org/licenses/lgpl-2.1.html>`_.
