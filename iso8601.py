@@ -16,10 +16,11 @@
 # 02110-1301 USA
 """Parse utilities for iso8601 encoding.
 
-Whereas encoding is offered by :func:`datetime.datetime.isoformat`,
-the standard library offers no means to decode an iso8601 format
-datetime into a :class:`datetime.datetime` object.  This module just
-makes up for that deficiency in an unobtrusive way.
+Whereas iso8601 encoding is offered by
+:func:`datetime.datetime.isoformat`, the standard library offers no
+means to decode an iso8601 format datetime into a
+:class:`datetime.datetime` object.  This module just makes up for that
+deficiency in an unobtrusive way.
 
 .. codeauthor:: Evan Buswell <evan.buswell@accellion.com>
 """

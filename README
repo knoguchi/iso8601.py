@@ -3,7 +3,7 @@ iso8061
 
 Parse utilities for iso8601 encoding.
 
-Whereas encoding is offered by `datetime.isoformat()
+Whereas iso8601 encoding is offered by `datetime.isoformat()
 <http://docs.python.org/library/datetime.html#datetime.datetime.isoformat>`_,
 the standard library offers no means to decode an iso8601 format
 datetime into a `datetime

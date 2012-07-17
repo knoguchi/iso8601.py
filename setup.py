@@ -59,14 +59,14 @@ with open('README') as readme:
 setup(
     name             = 'iso8601',
     version          = '0.1dev',
-    description      = 'iso8601 date parsing utilities',
+    description      = 'Parse utilities for iso8601 encoding.',
     long_description = long_description,
     author           = 'Accellion, Inc.',
     author_email     = 'open-source@accellion.com',
     maintainer       = 'Evan Buswell',
     maintainer_email = 'evan.buswell@accellion.com',
-    url              = 'http://iso8601.github.com',
-    download_url     = 'http://iso8601.github.com/downloads.html',
+    url              = 'http://packages.python.org/iso8601/',
+    download_url     = 'http://pypi.python.org/packages/source/i/iso8601',
     keywords         = ['iso8601', 'date', 'time', 'datetime', 'parser'],
     classifiers      = [
         'Development Status :: 4 - Beta',
