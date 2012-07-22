@@ -62,7 +62,7 @@ setup(
     description      = 'Parse utilities for iso8601 encoding.',
     long_description = long_description,
     author           = 'Accellion, Inc.',
-    author_email     = 'open-source@accellion.com',
+    author_email     = 'opensource@accellion.com',
     maintainer       = 'Evan Buswell',
     maintainer_email = 'evan.buswell@accellion.com',
     url              = 'http://packages.python.org/iso8601/',
