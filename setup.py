@@ -57,7 +57,7 @@ with open('README') as readme:
     long_description = readme.read()
 
 setup(
-    name             = 'iso8601',
+    name             = 'iso8601.py',
     version          = '0.1dev',
     description      = 'Parse utilities for iso8601 encoding.',
     long_description = long_description,
@@ -65,8 +65,8 @@ setup(
     author_email     = 'opensource@accellion.com',
     maintainer       = 'Evan Buswell',
     maintainer_email = 'evan.buswell@accellion.com',
-    url              = 'http://packages.python.org/iso8601/',
-    download_url     = 'http://pypi.python.org/packages/source/i/iso8601',
+    url              = 'http://packages.python.org/iso8601.py/',
+    download_url     = 'https://github.com/accellion/iso8601.py/downloads',
     keywords         = ['iso8601', 'date', 'time', 'datetime', 'parser'],
     classifiers      = [
         'Development Status :: 4 - Beta',
